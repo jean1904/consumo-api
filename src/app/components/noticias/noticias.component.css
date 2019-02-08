@@ -1,0 +1,15 @@
+.titulo {
+	background-color:#008C31;
+	color:#fff;
+	text-size:15px;
+	padding:10px;
+}
+.grilla {
+	width:80%;
+	margin:10px;
+}
+
+.contenido {
+	background-color:#ECF0F1;
+	padding:10px;
+}

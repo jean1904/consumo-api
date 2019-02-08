@@ -1,0 +1,9 @@
+<div class="row grilla">
+	<div class="col-md-6">
+		<input type="text" class="form-control input-sm" placeholder="Buscar" name="buscar" (keyup.enter)="executePost()" (blur)="executePost()" [(ngModel)]="buscar">
+	</div>
+</div>
+<div class="row grilla" *ngFor="let noticia of news">
+	<div class="col-md-12 titulo">{{noticia.titulo}}</div>
+	<div class="col-md-12 contenido">{{noticia.contenido}}</div>
+</div>
